@@ -1,6 +1,11 @@
 /*IMPORTA O PACOTE DO EXPRESS PARA O SCRIPT index.js*/
 const express = require('express');
 
+const modelCategoria = require('../model/modelCategorias')
+
+
+
+
 /*GERENCIADOR DE ROTAS DO EXPRESS*/
 const router = express.Router();
 

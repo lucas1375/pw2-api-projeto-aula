@@ -1,10 +1,14 @@
 /*IMPORTA O PACOTE DO EXPRESS PARA O SCRIPT index.js*/
+const { application } = require('express');
 const express = require('express');
+const routesCategoria = require('./route/routesCategorias');
 
 /*TORNA O EXPRESS EXECUTÁVEL DENTRO DO SCRIPT inxdex.js
 ATRAVÉS DA CONSTANTE app
 */
 const app = express();
+
+app.use('/', Routercategorias);
 
 /** ROTAS DE CRUD DE CATEGORIA **/
 
